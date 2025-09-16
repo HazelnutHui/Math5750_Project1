@@ -71,10 +71,3 @@
 
 ---
 
-## How to Run
-
-Clone the repository and open the notebook:  
-```bash
-git clone https://github.com/your-username/Math5750_Project1.git
-cd Math5750_Project1
-jupyter notebook Project1.ipynb
