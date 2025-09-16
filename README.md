@@ -1,3 +1,29 @@
+# Math 5750/6880 – Project 1
+
+This repository contains my work for **Project 1** of *Mathematics of Data Science (Math 5750/6880)*.  
+The project consists of three main components:  
+
+1. **Project Euler Problem** (Python)  
+2. **Regression Analysis** (California Housing dataset)  
+3. **Classification Analysis** (Breast Cancer Wisconsin dataset)  
+
+All code is in `Project1.ipynb`.  
+The final report was written in LaTeX (PDF submitted on Gradescope).  
+
+---
+
+## Part 3: Project Euler Problem
+
+**Problem 2 – Even Fibonacci numbers**  
+- **Task**: Find the sum of all even-valued Fibonacci numbers less than or equal to 4,000,000.  
+- **Approach**: Instead of generating the entire Fibonacci sequence, I used the recurrence relation for even Fibonacci terms:  
+  \[
+  E_{k+1} = 4E_k + E_{k-1}, \quad E_0 = 2, \; E_1 = 8
+  \]  
+  This allows efficient computation by skipping odd terms.  
+
+- **Result**:  
+Sum of even Fibonacci numbers ≤ 4,000,000 = 4,613,732
 
 ---
 
